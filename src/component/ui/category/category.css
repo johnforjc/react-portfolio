@@ -1,0 +1,12 @@
+.category {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: rgb(170, 170, 170);
+  color: var(--primary-color);
+  border-radius: 2px;
+  font-size: 10px;
+  width: fit-content;
+  font-weight: 700;
+  margin: 0px 5px 10px 0;
+  text-align: center;
+}

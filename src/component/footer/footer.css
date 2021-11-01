@@ -1,0 +1,34 @@
+footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 10vw;
+  color: #f5f5f5;
+  background: #101010;
+}
+
+.line {
+  margin-left: -10vw;
+  width: 60vw;
+  height: 1px;
+  background-color: #f5f5f5;
+  margin-right: 20px;
+}
+
+.social-media-icon {
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--secondary-color);
+}
+
+.social-media-icon img {
+  display: block;
+  width: 40px;
+  aspect-ratio: 1;
+}
