@@ -31,10 +31,10 @@ const home = () => {
               I am a junior website developer who is passionate about website technology. I started to learn website programming in 2017 until now. I also can work either individually or in a group.
             </p>
 
-            <Btn cta={true} url="#myproject" delay={"900"} animation={"fade-up"}>
+            <Btn cta={"main"} url="#myproject" delay={"900"} animation={"fade-up"}>
               See Project
             </Btn>
-            <Btn cta={true} url={file} action="download" delay={"1200"} animation={"fade-up"}>
+            <Btn cta={"sub-main"} url={file} action="download" delay={"1200"} animation={"fade-up"}>
               Download Resume
             </Btn>
           </div>

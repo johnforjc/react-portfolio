@@ -5,7 +5,7 @@ const button = (props) => {
   if (props.action === "download") {
     return (
       <a href={props.url}>
-        <div className={`btn btn-${props.type} btn-${props.size} ${props.cta ? "cta" : ""}`} download="resume.pdf" data-aos={props.animation} data-aos-delay={props.delay}>
+        <div className={`btn btn-${props.type} btn-${props.size} ${props.cta ? props.cta : ""}`} download="resume.pdf" data-aos={props.animation} data-aos-delay={props.delay}>
           {props.children}
         </div>
       </a>
@@ -13,7 +13,7 @@ const button = (props) => {
   } else {
     return (
       <a href={props.url}>
-        <div className={`btn btn-${props.type} btn-${props.size} ${props.cta ? "cta" : ""}`} data-aos={props.animation} data-aos-delay={props.delay}>
+        <div className={`btn btn-${props.type} btn-${props.size} ${props.cta ? props.cta : ""}`} data-aos={props.animation} data-aos-delay={props.delay}>
           {props.children}
         </div>
       </a>
@@ -24,7 +24,7 @@ const button = (props) => {
 button.defaultProps = {
   type: "primary",
   size: "md",
-  cta: false,
+  cta: "",
   url: "#",
   action: null,
 };

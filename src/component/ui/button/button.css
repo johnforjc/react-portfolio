@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.btn.cta {
+.btn.main {
   width: 200px;
   background-color: var(--tersier-color);
   color: var(--primary-color);
@@ -21,11 +21,17 @@
   }
 }
 
-.cta:nth-of-type(3) {
+.btn.sub-main {
   border: solid 2px var(--tersier-color);
   background: transparent;
   color: var(--tersier-color);
   text-transform: uppercase;
+  font-weight: 400;
+}
+
+.btn.sub-main:hover {
+  background: var(--tersier-color);
+  color: var(--primary-color);
   font-weight: 400;
 }
 
